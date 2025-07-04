@@ -1,0 +1,50 @@
+{
+  "name": "flash-usdt-sender-bot",
+  "version": "1.0.0",
+  "description": "Flash USDT Sender Bot - Professional cryptocurrency automation tool",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "keywords": [
+    "usdt",
+    "flash",
+    "sender",
+    "bot",
+    "cryptocurrency",
+    "automation",
+    "trading",
+    "blockchain",
+    "fintech"
+  ],
+  "author": {
+    "name": "Flash USDT Sender Team",
+    "email": "support@flashusdtsender.xyz",
+    "url": "https://flashusdtsender.xyz"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/username/flash-usdt-sender.git"
+  },
+  "bugs": {
+    "url": "https://github.com/username/flash-usdt-sender/issues"
+  },
+  "homepage": "https://flashusdtsender.xyz",
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "axios": "^1.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.0",
+    "eslint": "^8.0.0"
+  }
+}
